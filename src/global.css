@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#F9F9F9];
+}
+
+@layer components {
+  .ellipse-64 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1252px;
+    top: 41px;
+
+    background: #ffffff;
+    border: 2px solid #eaeaea;
+  }
+  .search-icon {
+    position: absolute;
+    left: 12.5%;
+    right: 20.83%;
+    top: 12.5%;
+    bottom: 20.83%;
+  }
+  .box-login {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 183px;
+    height: 49px;
+    left: 1347px;
+    top: 42px;
+
+    background: #ffffff;
+    border: 2px solid #eaeaea;
+    border-radius: 100px;
+  }
+}
